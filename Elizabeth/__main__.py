@@ -40,7 +40,7 @@ from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 PM_START_TEXT = f"""
 `Hi..Welcome` 👀
-`I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
+`I'm` [Super Group Help Bot](https://telegra.ph/file/81d78345e163e3c96e1c6.jpg)
 `I'm here to help you manage your groups.. Click Help button to find out more about how to use me to my full potential..`
 """
 
@@ -49,13 +49,12 @@ buttons = [[InlineKeyboardButton(text="➡️ HELP AND COMMANDS ⬅️",
 ]]
 
 buttons += [[InlineKeyboardButton(text="🌍 ADD ME TO YOUR GROUP 🌍",
-                                  url="t.me/Elizabeth_TgBot?startgroup=true"),
+                                  url="t.me/Super_GroupHelp_Bot?startgroup=true"),
 ]]
 
-buttons += [[InlineKeyboardButton(text="💾SOURCE CODE",
-                                  url="https://github.com/P-RINC-E/ELIZABETH"),
+buttons +=
              InlineKeyboardButton(text="🌳SUPPORT",
-                                  url="https://t.me/ELIZABETH_SUPPORT"),
+                                  url="https://t.me/SuperGroupHelpSupport"),
 ]]
 
 buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
@@ -63,7 +62,7 @@ buttons += [[InlineKeyboardButton(text="🔒 CLOSE THE MENU 🔒",
 
 
 HELP_STRINGS = f"""
-`Hi.. I'm` [ELIZABETH🍀](https://telegra.ph/file/281aaa468756db0769df0.jpg)
+`Hi.. I'm` [Super Group Help Bot ](https://telegra.ph/file/81d78345e163e3c96e1c6.jpg)
 `Click on the buttons below to get documentation about specific modules..`"""
 
 
